@@ -1,5 +1,14 @@
 """Provide the primary functions."""
 
+def zen(with_attribution=True):
+    quote = """Beautiful is better than ugly."""
+
+
+    if with_attribution:
+        quote += "Nt-Tim Peters"
+
+    return quote
+
 
 def canvas(with_attribution=True):
     """
