@@ -7,6 +7,14 @@ theochembp
 
 A sample repo for the TheoChem best practices workshop.
 
+This project is XXX
+
+`pip install -e .`
+
+This package requires:
+    - numpy
+    - matplotlib
+
 ### Copyright
 
 Copyright (c) 2022, Xingcheng Lin
