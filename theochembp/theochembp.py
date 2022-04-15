@@ -170,7 +170,7 @@ def draw_molecule(coordinates, symbols, draw_bonds=None, save_location=None, dpi
     return ax
 
 
-def calculate_angle(rA, rB, rC, degrees=False):
+def calculate_angle(rA: np.ndarray, rB: np.ndarray, rC: np.ndarray, degrees: bool=False):
     # Calculate the angle between three points. Answer is given in radians by default, but can be given in degrees
     # by setting degrees=True
     AB = rB - rA
