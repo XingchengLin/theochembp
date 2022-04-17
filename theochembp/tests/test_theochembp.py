@@ -10,12 +10,11 @@ import numpy as np
 
 import theochembp
 
-
 def test_theochembp_imported():
     """Sample test, will always pass so long as import statement worked."""
     assert "theochembp" in sys.modules
 
-@pytest.mark.skip 
+@pytest.mark.skip
 def test_calculate_distance():
     
     r1 = np.array([0, 0, 0])
